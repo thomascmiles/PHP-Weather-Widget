@@ -1,0 +1,281 @@
+/* http://erikflowers.github.io/weather-icons */
+
+@font-face {
+font-family: 'Weathericons-Font';
+src: url('weathericons-webfont.eot');
+src: url('weathericons-webfont.eot?#iefix') format('embedded-opentype'),
+     url('weathericons-webfont.svg#Weathericons-Font') format('svg'),
+     url('weathericons-webfont.woff') format('woff'),
+     url('weathericons-webfont.woff2') format('woff2'),
+     url('weathericons-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.weathericon:before {
+font-family: 'Weathericons-Font';
+speak: none;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+}
+.weathericon.clear:before {
+content: "\f00d";
+}
+.weathericon.cloudy.sun:before {
+content: "\f002";
+}
+.weathericon.cloudy-gusts.sun:before {
+content: "\f000";
+}
+.weathericon.cloudy-windy.sun:before {
+content: "\f001";
+}
+.weathericon.fog.sun:before {
+content: "\f003";
+}
+.weathericon.hail.sun:before {
+content: "\f004";
+}
+.weathericon.haze:before {
+content: "\f0b6";
+}
+.weathericon.lightning.sun:before {
+content: "\f005";
+}
+.weathericon.rain.sun:before {
+content: "\f008";
+}
+.weathericon.rain-mix.sun:before {
+content: "\f006";
+}
+.weathericon.rain-wind.sun:before {
+content: "\f007";
+}
+.weathericon.showers.sun:before {
+content: "\f009";
+}
+.weathericon.sleet.sun:before {
+content: "\f0b2";
+}
+.weathericon.sleet-storm.sun:before {
+content: "\f068";
+}
+.weathericon.snow.sun:before {
+content: "\f00a";
+}
+.weathericon.snow-thunderstorm:before {
+content: "\f06b";
+}
+.weathericon.snow-wind.sun:before {
+content: "\f065";
+}
+.weathericon.sprinkle.sun:before {
+content: "\f00b";
+}
+.weathericon.storm-showers.sun:before {
+content: "\f00e";
+}
+.weathericon.overcast.sun:before {
+content: "\f00c";
+}
+.weathericon.thunderstorm.sun:before {
+content: "\f010";
+}
+.weathericon.windy.sun:before {
+content: "\f085";
+}
+.weathericon.solar-eclipse:before {
+content: "\f06e";
+}
+.weathericon.hot:before {
+content: "\f072";
+}
+.weathericon.cloudy-high.sun:before {
+content: "\f07d";
+}
+.weathericon.clear.moon:before {
+content: "\f02e";
+}
+.weathericon.cloudy.moon:before {
+content: "\f086";
+}
+.weathericon.cloudy-gusts.moon:before {
+content: "\f022";
+}
+.weathericon.cloudy-windy.moon:before {
+content: "\f023";
+}
+.weathericon.hail.moon:before {
+content: "\f024";
+}
+.weathericon.lightning.moon:before {
+content: "\f025";
+}
+.weathericon.rain.moon:before {
+content: "\f028";
+}
+.weathericon.rain-mix.moon:before {
+content: "\f026";
+}
+.weathericon.rain-wind.moon:before {
+content: "\f027";
+}
+.weathericon.showers.moon:before {
+content: "\f029";
+}
+.weathericon.sleet.moon:before {
+content: "\f0b4";
+}
+.weathericon.sleet-storm.moon:before {
+content: "\f06a";
+}
+.weathericon.snow.moon:before {
+content: "\f02a";
+}
+.weathericon.snow-thunderstorm.moon:before {
+content: "\f06d";
+}
+.weathericon.snow-wind.moon:before {
+content: "\f067";
+}
+.weathericon.sprinkle.moon:before {
+content: "\f02b";
+}
+.weathericon.storm-showers.moon:before {
+content: "\f02c";
+}
+.weathericon.thunderstorm.moon:before {
+content: "\f02d";
+}
+.weathericon.fog.moon:before {
+content: "\f04a";
+}
+.weathericon.lunar-eclipse:before {
+content: "\f070";
+}
+.weathericon.stars:before {
+content: "\f077";
+}
+.weathericon.cloudy-high.moon:before {
+content: "\f07e";
+}
+.weathericon.overcast.moon:before {
+content: "\f081";
+}
+.weathericon.overcast:before {
+content: "\f041";
+}
+.weathericon.cloudy:before {
+content: "\f013";
+}
+.weathericon.cloudy-gusts:before {
+content: "\f011";
+}
+.weathericon.cloudy-windy:before {
+content: "\f012";
+}
+.weathericon.fog:before {
+content: "\f014";
+}
+.weathericon.hail:before {
+content: "\f015";
+}
+.weathericon.rain:before {
+content: "\f019";
+}
+.weathericon.rain-mix:before {
+content: "\f017";
+}
+.weathericon.rain-wind:before {
+content: "\f018";
+}
+.weathericon.showers:before {
+content: "\f01a";
+}
+.weathericon.sleet:before {
+content: "\f0b5";
+}
+.weathericon.snow:before {
+content: "\f01b";
+}
+.weathericon.sprinkle:before {
+content: "\f01c";
+}
+.weathericon.storm-showers:before {
+content: "\f01d";
+}
+.weathericon.thunderstorm:before {
+content: "\f01e";
+}
+.weathericon.snow-wind:before {
+content: "\f064";
+}
+.weathericon.smog:before {
+content: "\f074";
+}
+.weathericon.smoke:before {
+content: "\f062";
+}
+.weathericon.lightning:before {
+content: "\f016";
+}
+.weathericon.raindrops:before {
+content: "\f04e";
+}
+.weathericon.raindrop:before {
+content: "\f078";
+}
+.weathericon.dust:before {
+content: "\f063";
+}
+.weathericon.snowflake-cold:before {
+content: "\f076";
+}
+.weathericon.weathericonndy:before {
+content: "\f021";
+}
+.weathericon.strong-wind:before {
+content: "\f050";
+}
+.weathericon.sandstorm:before {
+content: "\f082";
+}
+.weathericon.earthquake:before {
+content: "\f0c6";
+}
+.weathericon.fire:before {
+content: "\f0c7";
+}
+.weathericon.flood:before {
+content: "\f07c";
+}
+.weathericon.meteor:before {
+content: "\f071";
+}
+.weathericon.tsunami:before {
+content: "\f0c5";
+}
+.weathericon.volcano:before {
+content: "\f0c8";
+}
+.weathericon.hurricane:before {
+content: "\f073";
+}
+.weathericon.tornado:before {
+content: "\f056";
+}
+.weathericon.small-craft-advisory:before {
+content: "\f0cc";
+}
+.weathericon.gale-warning:before {
+content: "\f0cd";
+}
+.weathericon.storm-warning:before {
+content: "\f0ce";
+}
+.weathericon.hurricane-warning:before {
+content: "\f0cf";
+}
+.weathericon.weathericonnd-direction:before {
+content: "\f0b1";
+}

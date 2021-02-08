@@ -1,0 +1,77 @@
+[class^="dayclimacon"] {
+position: relative;
+z-index: -100;
+}
+
+.nowtemp {
+font-size: 20px;
+font-weight: bold;
+}
+
+.nowcond {
+text-transform: capitalize;
+}
+
+[class^="hi"], [class^="lo"], .todaylocation {
+line-height: 25px;
+}
+
+.nwslink {
+text-decoration: none;
+color:inherit; 
+}
+
+.grid-container {
+display: grid;
+height: 100px;
+padding: 0;
+margin: 0;
+font-family: Tahoma;
+text-align: center;
+font-size: 12px;
+grid-template-columns: 10% 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+grid-template-rows: 25px 50px 25px;
+gap: 0px 0px;
+grid-template-areas:
+ "todayicon todaytop daytitle0 daytitle0 daytitle1 daytitle1 daytitle2 daytitle2 daytitle3 daytitle3 daytitle4 daytitle4 daytitle5 daytitle5 daytitle6 daytitle6 daytitle7 daytitle7 ."
+ "todayicon today dayclimacon0 dayclimacon0 dayclimacon1 dayclimacon1 dayclimacon2 dayclimacon2 dayclimacon3 dayclimacon3 dayclimacon4 dayclimacon4 dayclimacon5 dayclimacon5 dayclimacon6 dayclimacon6 dayclimacon7 dayclimacon7 ."
+ "todaylocation todaybottom hi0 lo0 hi1 lo1 hi2 lo2 hi3 lo3 hi4 lo4 hi5 lo5 hi6 lo6 hi7 lo7 .";
+}
+
+.todayicon { grid-area: todayicon; }
+.todaylocation { grid-area: todaylocation; }
+.daytitle0 { grid-area: daytitle0; }
+.daytitle1 { grid-area: daytitle1; }
+.daytitle2 { grid-area: daytitle2; }
+.daytitle3 { grid-area: daytitle3; }
+.daytitle4 { grid-area: daytitle4; }
+.daytitle5 { grid-area: daytitle5; }
+.daytitle6 { grid-area: daytitle6; }
+.daytitle7 { grid-area: daytitle7; }
+.dayclimacon0 { grid-area: dayclimacon0; }
+.dayclimacon1 { grid-area: dayclimacon1; }
+.dayclimacon2 { grid-area: dayclimacon2; }
+.dayclimacon3 { grid-area: dayclimacon3; }
+.dayclimacon4 { grid-area: dayclimacon4; }
+.dayclimacon5 { grid-area: dayclimacon5; }
+.dayclimacon6 { grid-area: dayclimacon6; }
+.dayclimacon7 { grid-area: dayclimacon7; }
+.todaytop { grid-area: todaytop; }
+.todaybottom { grid-area: todaybottom; }
+.today { grid-area: today; }
+.hi0 { grid-area: hi0; }
+.lo0 { grid-area: lo0; }
+.hi1 { grid-area: hi1; }
+.lo1 { grid-area: lo1; }
+.hi2 { grid-area: hi2; }
+.lo2 { grid-area: lo2; }
+.hi3 { grid-area: hi3; }
+.lo3 { grid-area: lo3; }
+.hi4 { grid-area: hi4; }
+.lo4 { grid-area: lo4; }
+.hi5 { grid-area: hi5; }
+.lo5 { grid-area: lo5; }
+.hi6 { grid-area: hi6; }
+.lo6 { grid-area: lo6; }
+.hi7 { grid-area: hi7; }
+.lo7 { grid-area: lo7; }
